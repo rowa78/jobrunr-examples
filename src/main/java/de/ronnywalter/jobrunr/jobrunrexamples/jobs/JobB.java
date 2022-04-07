@@ -1,9 +1,12 @@
 package de.ronnywalter.jobrunr.jobrunrexamples.jobs;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class JobB extends AbstractJob {
 
     @Override
     public void run() {
-        System.out.println("Job A!");
+        System.out.println("Job B!");
     }
 }
